@@ -1,0 +1,4 @@
+http://www.denikpacienta.cz/
+http://www.denikpacienta.cz/login.php
+http://www.denikpacienta.cz/registration.php
+http://www.denikpacienta.cz/zapomenute-heslo.php

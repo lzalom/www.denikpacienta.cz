@@ -1,0 +1,106 @@
+body { padding-top: 80px; /* 60px to make the container go all the way to the bottom of the topbar */ padding-bottom:50px; }
+
+/* DEFAULT RESET */
+img, fieldset { border:none; }
+p, form, fieldset, ul, ol, li { margin:0px; padding:0px; }
+h1, h2, h3, h4, h5, h6, h7 { margin:0px; padding:0px; background-repeat: no-repeat; font-weight:normal; }
+td { vertical-align: top; text-align: left; padding: 0px; }
+li { background-repeat: no-repeat; }
+a, *:focus { outline: none; }
+button::-moz-focus-inner { border:0; padding:0; }
+
+/* LAYOUT HELPERS */
+.cb, .clr { clear:both; font-size: 1px; line-height: 1px; display:block; border:none; }
+.fl { float:left; }
+.fr { float:right; }
+.text-right { text-align: right;}
+.nowrap { white-space: nowrap; }
+legend span { display:block; }
+legend { display:none !important; }
+p.legend { padding-left:0px !important; }
+
+.nav-collapse { float:left; width:520px; }
+.navbar .nav li { position:relative; top:2px; }
+.navbar .nav a.active { color:#8AC4FF; }
+
+.navbar .logged { color:#999; position:relative; top:12px; left:10px; float:right; }
+.navbar .logged a:hover { color:#fff; text-decoration:none; }
+
+.message { background:#bd0000 url(../img/close.png) right 13px no-repeat; height:60px; color:#fff; position:absolute; width:100%; left:0px; top:40px; cursor:pointer; }
+.message p { padding:20px; font-size:16px; }
+.message p a { font-weight:bold; color:#fff; }
+
+.hero-unit {  }
+.hero-unit h1 { padding-bottom:15px; }
+.hero-unit p.fl { margin-right:15px; }
+
+h2 { padding-bottom:15px; }
+
+form {}
+form input { height:22px !important; width:90% !important }
+form input.fl { width:265px !important; }
+form .checkbox { height:auto !important; width:auto !important; display:inline; }
+form label.checkbox { padding-bottom:15px; position:relative; top:4px; }
+form textarea { width:90% !important }
+
+form#formBanners img.formImg { float:left; width:150px; }
+
+.blockNews {}
+.blockNews p { padding-bottom:10px; }
+.blockNews .newsItem {}
+.blockNews .newsItem.inactive {   
+    /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  /* IE 5-7 */
+  filter: alpha(opacity=30);
+  /* Netscape */
+  -moz-opacity: 0.3;
+  /* Safari 1.x */
+  -khtml-opacity: 0.3;
+  /* Good browsers */
+  opacity: 0.3; 
+}
+
+.blockNewItem {}
+.blockNewItem h2 { display:inline; padding-right:20px; }
+.blockNewItem .inline { display:inline; }
+
+.formPaddingTop { padding-top:80px; }
+
+/**/
+.BannerListSortable { position:relative; }
+.blockNews .ui-state-highlight { height: 140px; line-height: 1.2em; }
+.bannerItem { position:relative; float:none; border-bottom:1px #eee solid; margin-bottom:10px; margin-left:0px; height:140px; width:960px; }
+.bannerItem.head { height:33px; }
+.bannerItem.head .img { height:33px; }
+.bannerItem.inactive {  
+    /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+  /* Netscape */
+  -moz-opacity: 0.5;
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+  /* Good browsers */
+  opacity: 0.5; }
+.bannerItem .img { float:left; width:100%; height:75px; overflow:hidden; margin-right:15px; position:relative; }
+.bannerItem .handle { display:block; height:15px; width:15px; position:absolute; left:-23px; top:3px; background:#fff url(../img/glyphicons-halflings.png) -168px -72px no-repeat; cursor:pointer; }
+.bannerItem .img img { width:100%; height:auto; position:absolute; left:0px; top:0px; }
+.bannerItem .url { float:left; width:250px; margin-right:15px; }
+.bannerItem .url a { position:relative; top:25px; }
+.bannerItem .expire { float:left; width:300px; margin-right:15px; }
+.bannerItem .expire .expired { color:#f00; }
+.bannerItem .duration { float:left; width:70px; margin-right:15px; }
+.bannerItem .expire span,
+.bannerItem .duration span { position:relative; top:25px; }
+.bannerItem .buttons { float:left; width:260px; }
+.bannerItem .buttons a { position:relative; top:20px; }
+.bannerItem.ui-sortable-helper { border-bottom:none; }
+/**/
+#formLogin .formPaddingTop { padding-top:30px; }
+
+
+
+/**/
+ul.parsley-error-list { color: #FF0000; left: -210px; margin-top: -40px; position: relative; text-align: right; width: 200px; }
