@@ -147,9 +147,6 @@
     }
 
 
-
-
-
     /* FUNCTIONS */
     /* editace pozice -> formulář */
     function fillBannerForm(){
@@ -232,8 +229,6 @@
             echo '</div>';
         }
         echo '</div>';
-
-
     }
     
     

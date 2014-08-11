@@ -1,0 +1,602 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"png",
+				"servicesRight.png	w:24 h:22"
+			],
+			[
+				"hpCa",
+				"hpCarouselLength"
+			],
+			[
+				"window",
+				"windowWidth"
+			],
+			[
+				"secon",
+				"secondaryMenuItemWidth"
+			],
+			[
+				"secondaryMenu",
+				"secondaryMenuItemsLength"
+			],
+			[
+				"o",
+				"om-consulting2.png	w:257 h:120"
+			],
+			[
+				"spec-",
+				"spec-wedge-sablony.html"
+			],
+			[
+				"act",
+				"actualThumbnailIndex"
+			],
+			[
+				"next",
+				"nextThumbnail"
+			],
+			[
+				"ne",
+				"nextThumbnail"
+			],
+			[
+				"thu",
+				"thumbnailBase"
+			],
+			[
+				"question",
+				"question_matrix_text"
+			],
+			[
+				"sub",
+				"substr"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"te",
+				"team01.png	w:141 h:142"
+			],
+			[
+				"s",
+				"disc"
+			],
+			[
+				"se",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "admin/inc/variables.inc",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "redirect.php",
+			"settings":
+			{
+				"buffer_size": 446,
+				"line_ending": "Unix",
+				"name": "//"
+			}
+		},
+		{
+			"file": "info.php",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Unix",
+				"name": "<?php"
+			}
+		},
+		{
+			"file": "admin/index.php",
+			"settings":
+			{
+				"buffer_size": 1874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "admin/inc/functions.inc",
+			"settings":
+			{
+				"buffer_size": 10774,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/db.inc",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/admin/inc/db.inc",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/class.smtp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ecs/themes/genesis/templates/node--starsi-novinky.tpl.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ecs/themes/genesis/templates/node--8.tpl.php",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/js/init.js",
+		"/Users/lzalom/Weby/Gayguide/email-templates/html/GG365_Partners04.html",
+		"/Users/lzalom/Weby/Gayguide/email-templates/html/GG365_Partners01.html",
+		"/Users/lzalom/Weby/Gayguide/email-templates/html/GG365_2_CZ.html",
+		"/Users/lzalom/Weby/Gayguide/email-templates/html/GG356_EventMail2.html",
+		"/Users/lzalom/Weby/Gayguide/email-templates/html/GG365_EventMail.html",
+		"/Users/lzalom/Weby/Gayguide/email-templates/html/GG365_Partners03.html",
+		"/Users/lzalom/Weby/Gayguide/email-templates/html/GG365_Partners02.html",
+		"/Users/lzalom/Weby/Gayguide/email-templates/html/GG365_3.html",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/kontaktni-udaje.html",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/kde.html",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/novinky.html",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/css/default.css",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/nejcastejsi-dotazy.html",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/prubeh-betonovani.html",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/zaklad.html",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/pro-koho.html",
+		"/Users/lzalom/Weby/Gapanet/BEPO/bepo/novinky-detail.html",
+		"/Volumes/Projects/Mondeléz - Milka/2014/EMB/Milka LU Milka TUC/html/emb-lu-milka-tuc-sk.html",
+		"/Volumes/Projects/Mondeléz - Milka/2014/EMB/Milka LU Milka TUC/html/emb-lu-milka-tuc-cz.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/detail-novinky.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/homepage.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/kontakt.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/novinky.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/o-nas.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/reference-2.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/sluzby.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/zaklad.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/detail-reference.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/css/default.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/om/om-consulting/js/init.js",
+		"/Users/lzalom/Weby/Gapanet/om_consulting/html/detail-novinky.html",
+		"/Users/lzalom/Weby/Gapanet/om_consulting/html/.htaccess",
+		"/Users/lzalom/Weby/Gapanet/om_consulting/html/detail-reference.html",
+		"/Users/lzalom/Weby/Gapanet/om_consulting/html/homepage.html",
+		"/Users/lzalom/Weby/Gapanet/om_consulting/html/o-nas.html",
+		"/Users/lzalom/Weby/Gapanet/om_consulting/html/sluzby.html",
+		"/Users/lzalom/Weby/Gapanet/om_consulting/html/zaklad.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/showtimeautoproducts.cz/select.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/showtimeautoproducts.cz/css/default.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/showtimeautoproducts.cz/showtimeautoproducts.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/showtimeautoproducts.cz/en-flag.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/showtimeautoproducts.cz/en-homepage.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/showtimeautoproducts.cz/en-spec-wedge.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/showtimeautoproducts.cz/flag.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/showtimeautoproducts.cz/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/showtimeautoproducts.cz/spec-wedge.html",
+		"/Users/lzalom/Weby/Showtime/html/Showtime1_files/default.css",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1401997230/showtimeautoproducts.cz/css/default.css",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1401997214/showtimeautoproducts.cz/en-homepage.html",
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/showtimeautoproducts.cz",
+		"/Users/lzalom/Weby/Showtime/html/en.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/admin/templates/test.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/admin/pdf.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/admin/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/evaluate.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/inc/functions.inc",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1401278134/android-asistent/www/wp-content/themes/twentythirteen/page.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1401278273/android-asistent/www/wp-content/themes/twentythirteen/js/init.js",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1401278543/android-asistent/www/wp-content/themes/twentythirteen/css/default.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/js/init.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/test.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1400768224/calzanatta.cz/www/wp-content/themes/pictorico/header.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1400766305/calzanatta.cz/www/wp-content/themes/pictorico/style.css",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1400766290/calzanatta.cz/www/wp-content/themes/pictorico/content-home.php",
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/calzanatta.cz",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/admin/inc/variables.inc",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/inc/variables.inc",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/inc/db.inc",
+		"/Applications/XAMPP/xamppfiles/htdocs/acamar/admin/inc/db.inc",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1400627697/svobodni-beroun.cz/www/index.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1400627715/svobodni-beroun.cz/www/full/index.html",
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/svobodni-beroun.cz",
+		"/Users/lzalom/Weby/Showtime/html/Showtime1_files/init.js",
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397733999/beta.idr.cz/janhajekarch/wp-content/themes/twentyfourteen/js/init.js",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397736315/beta.idr.cz/janhajekarch/wp-content/themes/twentyfourteen/search.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397736727/beta.idr.cz/janhajekarch/wp-content/themes/twentyfourteen/style.css",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397737278/beta.idr.cz/janhajekarch/wp-includes/post-template.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397736335/beta.idr.cz/janhajekarch/wp-content/themes/twentyfourteen/page.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397733605/beta.idr.cz/janhajekarch/wp-content/themes/twentyfourteen/header.php",
+		"/Users/lzalom/Weby/IT-Doctors/janhajekarch.cz/html/index.html",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397674195/beta.idr.cz/janhajekarch/wp-content/themes/twentyfourteen/footer.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397674182/beta.idr.cz/janhajekarch/wp-content/themes/twentyfourteen/index.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397674057/beta.idr.cz/janhajekarch/wp-content/themes/twentyfourteen/header.php",
+		"/Users/lzalom/Weby/REPOSITORY/projectgraph-design/pg-design/js/jquery.jqGrid.min.js",
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/beta.idr.cz",
+		"/Users/lzalom/Weby/Gapanet/semda/html/css/default.css",
+		"/Users/lzalom/Weby/IT-Doctors/janhajekarch.cz/html/page.html",
+		"/Users/lzalom/Weby/IT-Doctors/janhajekarch.cz/html/js/init.js",
+		"/Users/lzalom/Weby/IT-Doctors/janhajekarch.cz/html/css/default.css",
+		"/Users/lzalom/Weby/IT-Doctors/janhajekarch.cz/html/js/lightbox-2.6.min.js",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397479520/2dem.cz/public_html/wordpress/wp-content/themes/twentyfourteen/index.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397480557/2dem.cz/public_html/wordpress/wp-content/themes/twentyfourteen/style.css",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397479900/2dem.cz/public_html/wordpress/wp-content/themes/twentyfourteen/header.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397480966/2dem.cz/public_html/wordpress/wp-content/themes/twentyfourteen/footer.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397481208/kapcz.eu/public_html/wp-content/themes/html5blank-master/single.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397479489/2dem.cz/public_html/wordpress/wp-content/themes/twentyfourteen/page.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397479450/2dem.cz/public_html/wordpress/wp-content/themes/twentyfourteen/style.css",
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/2dem.cz",
+		"/Users/lzalom/Weby/.htaccess",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397220171/acamar.cz/www/admin/pdf.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397219236/acamar.cz/www/admin/inc/functions.inc",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397218876/acamar.cz/www/inc/frontend.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1397218807/acamar.cz/www/test.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1396613435/coolblogbrno.cz/wp-content/themes/pinstrap/style.css",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1396613055/coolblogbrno.cz/wp-content/themes/pinstrap/archive.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1396612876/coolblogbrno.cz/wp-content/themes/pinstrap/page.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1396612975/coolblogbrno.cz/wp-content/themes/pinstrap/single.php",
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/coolblogbrno.cz",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1395319027/kapcz.eu/public_html/wp-content/themes/html5blank-master/index.php",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1395319077/kapcz.eu/public_html/wp-content/themes/html5blank-master/css/default.css",
+		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1395318921/kapcz.eu/public_html/wp-content/themes/html5blank-master/page.php",
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/acamar.cz",
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/kapcz.eu",
+		"/Users/lzalom/Weby/GAT/Trojmezi/html/index.html",
+		"/Users/lzalom/Weby/GAT/Trojmezi/html/css/default.css",
+		"/Users/lzalom/Weby/GAT/Trojmezi/html/kontakt.html",
+		"/Users/lzalom/Weby/GAT/Trojmezi/html/lokalita.html",
+		"/Users/lzalom/Weby/GAT/Trojmezi/html/fotogalerie.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/truetrac/www/mail",
+		"/Applications/XAMPP/xamppfiles/htdocs/truetrac/www/tt-orbit-430.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/truetrac/www/less/reset.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"type",
+			"homepage",
+			"carousel",
+			"\"img/",
+			"secondary",
+			"no-touch",
+			"touch",
+			".touch",
+			".png",
+			".no-touch",
+			"downloads",
+			"header nav ul",
+			"header nav ul li ul li",
+			"header nav ul li ul",
+			"vizual",
+			"v případ",
+			"count",
+			"pdf",
+			"hodnocení",
+			"další",
+			"přidat",
+			"hodnotiteli",
+			"textarea",
+			"odeslat ",
+			"uložit",
+			"img",
+			"zadáno",
+			"width:1000px",
+			"[]]",
+			"lightbox",
+			"lightbox[gallery]",
+			"searchForm",
+			"SearchForm",
+			"searchForm",
+			".menu2",
+			".menu1",
+			"Zobrazeno",
+			"#fff",
+			"<span>",
+			"<td>",
+			"td",
+			"::",
+			"line-height:16px;",
+			";\">'.$",
+			" border-bottom:3px #5dbdf0 solid;",
+			"color:#fff;",
+			"color#fff;",
+			"wireless-li",
+			".second",
+			"#wirele",
+			".FormBasket",
+			"basket",
+			"h4",
+			"1.0rem",
+			"1.5rem",
+			"1.5 rem",
+			"roboto regular",
+			".home",
+			"section.home",
+			".detail",
+			"href",
+			"configurator",
+			".detail",
+			".desc",
+			"pull-left",
+			"Rotobo",
+			".row.jobsList article .detail .buttons .reply.",
+			"</label>",
+			"scrollTo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"http://ae.symblaze.cz/ae/image/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "admin/inc/variables.inc",
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "redirect.php",
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"auto_name": "//",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "info.php",
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "admin/index.php",
+					"settings":
+					{
+						"buffer_size": 1874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 310.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "admin/inc/functions.inc",
+					"settings":
+					{
+						"buffer_size": 10774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9196,
+								9196
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3248.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true
+}

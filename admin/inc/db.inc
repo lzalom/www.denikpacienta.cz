@@ -12,5 +12,4 @@ $user = 'root';
 $pwd = '';
 $dbname = 'denik'
 
-
 ?>
