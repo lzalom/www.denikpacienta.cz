@@ -91,18 +91,9 @@
 			"file": "redirect.php",
 			"settings":
 			{
-				"buffer_size": 446,
+				"buffer_size": 1295,
 				"line_ending": "Unix",
 				"name": "//"
-			}
-		},
-		{
-			"file": "info.php",
-			"settings":
-			{
-				"buffer_size": 19,
-				"line_ending": "Unix",
-				"name": "<?php"
 			}
 		},
 		{
@@ -118,6 +109,22 @@
 			"settings":
 			{
 				"buffer_size": 10774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/api.php",
+			"settings":
+			{
+				"buffer_size": 1803,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/banners.php",
+			"settings":
+			{
+				"buffer_size": 1022,
 				"line_ending": "Unix"
 			}
 		}
@@ -150,6 +157,9 @@
 	},
 	"file_history":
 	[
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/apipost30.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/urllist.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/info.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/db.inc",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/admin/inc/db.inc",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/class.smtp.php",
@@ -274,10 +284,7 @@
 		"/Users/lzalom/Weby/GAT/Trojmezi/html/css/default.css",
 		"/Users/lzalom/Weby/GAT/Trojmezi/html/kontakt.html",
 		"/Users/lzalom/Weby/GAT/Trojmezi/html/lokalita.html",
-		"/Users/lzalom/Weby/GAT/Trojmezi/html/fotogalerie.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/truetrac/www/mail",
-		"/Applications/XAMPP/xamppfiles/htdocs/truetrac/www/tt-orbit-430.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/truetrac/www/less/reset.less"
+		"/Users/lzalom/Weby/GAT/Trojmezi/html/fotogalerie.html"
 	],
 	"find":
 	{
@@ -382,7 +389,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -419,61 +426,33 @@
 					"file": "redirect.php",
 					"settings":
 					{
-						"buffer_size": 446,
+						"buffer_size": 1295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								446,
-								446
+								1233,
+								1233
 							]
 						],
 						"settings":
 						{
 							"auto_name": "//",
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 55.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "info.php",
-					"settings":
-					{
-						"buffer_size": 19,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9,
-								9
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<?php",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "admin/index.php",
 					"settings":
 					{
@@ -484,8 +463,8 @@
 						"selection":
 						[
 							[
-								43,
-								43
+								1545,
+								1545
 							]
 						],
 						"settings":
@@ -498,13 +477,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 310.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "admin/inc/functions.inc",
 					"settings":
 					{
@@ -515,8 +494,8 @@
 						"selection":
 						[
 							[
-								9196,
-								9196
+								662,
+								662
 							]
 						],
 						"settings":
@@ -529,7 +508,67 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3248.0,
+						"translation.y": 3387.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/api.php",
+					"settings":
+					{
+						"buffer_size": 1803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 191.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "inc/banners.php",
+					"settings":
+					{
+						"buffer_size": 1022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1022,
+								1022
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -597,6 +636,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 193.0,
+	"side_bar_width": 253.0,
 	"status_bar_visible": true
 }
