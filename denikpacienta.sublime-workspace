@@ -80,27 +80,18 @@
 	"buffers":
 	[
 		{
-			"file": "admin/inc/variables.inc",
+			"file": "admin/templates/banners.tpl",
 			"settings":
 			{
-				"buffer_size": 375,
+				"buffer_size": 3556,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "redirect.php",
+			"file": "admin/css/default.css",
 			"settings":
 			{
-				"buffer_size": 1295,
-				"line_ending": "Unix",
-				"name": "//"
-			}
-		},
-		{
-			"file": "admin/index.php",
-			"settings":
-			{
-				"buffer_size": 1874,
+				"buffer_size": 4208,
 				"line_ending": "Unix"
 			}
 		},
@@ -108,23 +99,15 @@
 			"file": "admin/inc/functions.inc",
 			"settings":
 			{
-				"buffer_size": 10774,
+				"buffer_size": 11701,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "inc/api.php",
+			"file": "admin/inc/variables.inc",
 			"settings":
 			{
-				"buffer_size": 1803,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/banners.php",
-			"settings":
-			{
-				"buffer_size": 1022,
+				"buffer_size": 379,
 				"line_ending": "Unix"
 			}
 		}
@@ -157,6 +140,12 @@
 	},
 	"file_history":
 	[
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/api.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/admin/inc/functions.inc",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/admin/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/redirect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/admin/inc/variables.inc",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/banners.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/apipost30.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/urllist.txt",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/info.php",
@@ -278,13 +267,7 @@
 		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1395319027/kapcz.eu/public_html/wp-content/themes/html5blank-master/index.php",
 		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1395319077/kapcz.eu/public_html/wp-content/themes/html5blank-master/css/default.css",
 		"/var/folders/fs/ykyvs8fs7k7c4zmf87x102800000gn/T/sublime-sftp-browse-1395318921/kapcz.eu/public_html/wp-content/themes/html5blank-master/page.php",
-		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/acamar.cz",
-		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/kapcz.eu",
-		"/Users/lzalom/Weby/GAT/Trojmezi/html/index.html",
-		"/Users/lzalom/Weby/GAT/Trojmezi/html/css/default.css",
-		"/Users/lzalom/Weby/GAT/Trojmezi/html/kontakt.html",
-		"/Users/lzalom/Weby/GAT/Trojmezi/html/lokalita.html",
-		"/Users/lzalom/Weby/GAT/Trojmezi/html/fotogalerie.html"
+		"/Users/lzalom/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/acamar.cz"
 	],
 	"find":
 	{
@@ -389,113 +372,23 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "admin/inc/variables.inc",
+					"file": "admin/templates/banners.tpl",
 					"settings":
 					{
-						"buffer_size": 375,
+						"buffer_size": 3556,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								375,
-								375
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "redirect.php",
-					"settings":
-					{
-						"buffer_size": 1295,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1233,
-								1233
-							]
-						],
-						"settings":
-						{
-							"auto_name": "//",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 55.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "admin/index.php",
-					"settings":
-					{
-						"buffer_size": 1874,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1545,
-								1545
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "admin/inc/functions.inc",
-					"settings":
-					{
-						"buffer_size": 10774,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								662,
-								662
+								2710,
+								2710
 							]
 						],
 						"settings":
@@ -508,25 +401,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3387.0,
+						"translation.y": 506.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "inc/api.php",
+					"buffer": 1,
+					"file": "admin/css/default.css",
 					"settings":
 					{
-						"buffer_size": 1803,
+						"buffer_size": 4208,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4073,
+								4073
 							]
 						],
 						"settings":
@@ -534,30 +427,61 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1091.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "admin/inc/functions.inc",
+					"settings":
+					{
+						"buffer_size": 11701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								202
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 191.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "inc/banners.php",
+					"buffer": 3,
+					"file": "admin/inc/variables.inc",
 					"settings":
 					{
-						"buffer_size": 1022,
+						"buffer_size": 379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1022,
-								1022
+								296,
+								296
 							]
 						],
 						"settings":
@@ -565,7 +489,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

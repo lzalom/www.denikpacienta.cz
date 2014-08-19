@@ -3,13 +3,16 @@
     
     /* new banner item */
     if (isset($_POST['bannerSubmit'])){
-        /*echo '<pre>';
+        echo '<pre>';
         print_r($_POST);
         print_r($_FILES);
-        echo '</pre>';*/    
+        echo '</pre>';  
+        echo $rootPath;
         $now = date('Y-m-d H:i:s'); 
         $filename1 = date('Y-m-d_H-i-s') . '.jpg';
         $filename2 = date('Y-m-d_H-i-s') . '@2x.jpg';
+        $filename3 = date('Y-m-d_H-i-s') . '-phone.jpg';
+        $filename4 = date('Y-m-d_H-i-s') . '-phone@2x.jpg';
         if (isset($_FILES['file1'])){        
             if ($_FILES['file1']['type']!='image/jpeg'){
                 echo 'Invalid file ext';
@@ -27,11 +30,31 @@
                 move_uploaded_file($_FILES["file2"]["tmp_name"],
                 $rootPath."/admin/banners/" . $filename2);
             }
-        }        
+        }  
+        if (isset($_FILES['file3'])){        
+            if ($_FILES['file3']['type']!='image/jpeg'){
+                echo 'Invalid file ext';
+            }else{            
+                /* fullsize image */
+                move_uploaded_file($_FILES["file3"]["tmp_name"],
+                $rootPath."/admin/banners/" . $filename3);
+            }
+        }
+        if (isset($_FILES['file4'])){        
+            if ($_FILES['file4']['type']!='image/jpeg'){
+                echo 'Invalid file ext';
+            }else{            
+                /* fullsize image */
+                move_uploaded_file($_FILES["file4"]["tmp_name"],
+                $rootPath."/admin/banners/" . $filename4);
+            }
+        }      
         mysql_query("INSERT INTO banners 
-            (file1,file2,start,end,duration,url,date) 
+            (file1,file2,file3,file4,start,end,duration,url,date) 
             VALUES ('".$filename1."',
             '".$filename2."',
+            '".$filename3."',
+            '".$filename4."',
             '".$_POST['start']."', 
             '".$_POST['end']."', 
             '".$_POST['interval']."', 

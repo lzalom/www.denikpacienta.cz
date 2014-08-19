@@ -55,13 +55,25 @@
                 <label for="end">Expirace</label>
                 <input type="text" name="end" id="end" data-required="true" class="datepicker">
                 <br>
-                <label for="file1">Normální velikost</label>
-                <input type="file" name="file1" id="file1" data-required="true">
-                <br>
-                <label for="file2">Velikost pro retinový displej</label>
-                <input type="file" name="file2" id="file2" data-required="true">
-                <br>
-
+                <div class="left">
+                    <b>Tablet</b><br>
+                    <label for="file1">Normální velikost</label>
+                    <input type="file" name="file1" id="file1" data-required="true">
+                    <br><br>
+                    <label for="file2">Velikost pro retinový displej</label>
+                    <input type="file" name="file2" id="file2" data-required="true">
+                    <br>
+                </div>
+                <div class="right">
+                    <b>Mobil</b><br>
+                    <label for="file3">Normální velikost</label>
+                    <input type="file" name="file3" id="file3" data-required="true">
+                    <br><br>
+                    <label for="file4">Velikost pro retinový displej</label>
+                    <input type="file" name="file4" id="file4" data-required="true">
+                    <br>
+                </div>
+                <div class="clr"></div>
                 <label for="interval">Interval v sekundách</label>
                 <input type="text" name="interval" id="interval" data-required="true" data-type="number">
                 <br>

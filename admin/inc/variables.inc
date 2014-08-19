@@ -6,7 +6,7 @@
     //$rootPath = '/srv/www/htdocs/virt/denikpacienta.cz/';
     //$homeUrl = '/srv/www/htdocs/virt/denikpacienta.cz/';
 
-    $rootPath = '/Applications/XAMPP/xamppfiles/htdocs/denikpacienta.cz/';
+    $rootPath = '/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/';
     $homeUrl = 'http://localhost/www.denikpacienta.cz';
     
 ?>
