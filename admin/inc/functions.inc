@@ -3,11 +3,11 @@
     
     /* new banner item */
     if (isset($_POST['bannerSubmit'])){
-        echo '<pre>';
+        /*echo '<pre>';
         print_r($_POST);
         print_r($_FILES);
         echo '</pre>';  
-        echo $rootPath;
+        echo $rootPath;*/
         $now = date('Y-m-d H:i:s'); 
         $filename1 = date('Y-m-d_H-i-s') . '.jpg';
         $filename2 = date('Y-m-d_H-i-s') . '@2x.jpg';

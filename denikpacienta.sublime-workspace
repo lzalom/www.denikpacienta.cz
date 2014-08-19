@@ -99,7 +99,7 @@
 			"file": "admin/inc/functions.inc",
 			"settings":
 			{
-				"buffer_size": 11701,
+				"buffer_size": 11705,
 				"line_ending": "Unix"
 			}
 		},
@@ -372,7 +372,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -442,15 +442,15 @@
 					"file": "admin/inc/functions.inc",
 					"settings":
 					{
-						"buffer_size": 11701,
+						"buffer_size": 11705,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								202,
-								202
+								206,
+								206
 							]
 						],
 						"settings":
