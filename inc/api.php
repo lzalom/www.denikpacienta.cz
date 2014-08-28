@@ -23,8 +23,8 @@ if ($_GET['action']=='binUpload'){
                 $filename = $userId."-".$_GET['datetime'].".bin";
                 move_uploaded_file($_FILES["bin"]["tmp_name"],
                 $rootPath."/bin/".$filename);
-                mysql_query("INSERT INTO bins (file, date, user)
-                            VALUES ('".$filename."', '".$now."', ".$userId.") ");
+                mysql_query("INSERT INTO bins (file, date, user, os)
+                            VALUES ('".$filename."', '".$now."', ".$userId.", '".$_GET['os']."') ");
                 echo 'OK';
             }else{                
                 echo 'API: Nebyl nahrán soubor';
