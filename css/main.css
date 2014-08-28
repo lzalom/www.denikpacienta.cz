@@ -252,7 +252,9 @@ border-radius: 0px; text-decoration:underline;  }
 .archiveManagement .item a:hover { background:transparent url(../gfx/floatBox.png) right top no-repeat; }
 .archiveManagement .item a p { font-size:11px; position:absolute; left:20px; top:10px; }
 .archiveManagement .item a h2 { text-transform:uppercase; font-weight:normal; position:absolute; left:20px; top:40px; line-height:34px; font-size:35px; right:20px; }
-
+.archiveManagement .item .icon { display:block; width:37px; height:37px; position:absolute; right:5px; bottom:5px; }
+.archiveManagement .item .icon.android { background:transparent url(../gfx/iconAndroid.png) center center no-repeat; }
+.archiveManagement .item .icon.ios { background:transparent url(../gfx/iconIos.png) center center no-repeat; }
 
 
 /*

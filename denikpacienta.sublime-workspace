@@ -104,13 +104,10 @@
 			}
 		},
 		{
-			"contents": "<?php\nerror_reporting(0);\ninclude('db.inc');\ninclude('variables.inc');\n$spojeni = mysql_connect($sqlserver, $user, $pwd) or die ('Nelze se spojit s SQL serverem.');\n$database = mysql_select_db($dbname, $spojeni) or die ('Chyba pri vyberu databaze.');\nmysql_query(\"set names 'utf8'\");\n\nif ($_GET['action']=='binUpload'){\n    /*\n    echo '<pre>';\n    var_dump($_GET);\n    var_dump($_POST);\n    var_dump($_FILES);\n    echo '</pre>';\n    */\n    $now = date('Y-m-d H:i:s'); \n    $x = mysql_query(\"SELECT * FROM users WHERE email = '\".$_GET['username'].\"'\");\n    while($y=mysql_fetch_array($x)){\n        $userId = $y['id'];\n        if ($y['pass']==$_GET['password']){\n            if (isset($_FILES['bin'])){   \n                $filename = $userId.\"-\".$_GET['datetime'].\".bin\";\n                move_uploaded_file($_FILES[\"bin\"][\"tmp_name\"],\n                $rootPath.\"/bin/\".$filename);\n                mysql_query(\"INSERT INTO bins (file, date, user, os)\n                            VALUES ('\".$filename.\"', '\".$now.\"', \".$userId.\") \");\n                echo 'OK';\n            }else{                \n                echo 'API: Nebyl nahrán soubor';\n            }\n        }else{\n            echo 'API: Chybné heslo';\n        }\n    }\n}\n\nif ($_GET['action']=='binDownload'){\n    $now = date('Y-m-d H:i:s'); \n    $x = mysql_query(\"SELECT * FROM users WHERE email = '\".$_GET['username'].\"'\");\n    while($y=mysql_fetch_array($x)){\n        $userId = $y['id'];\n        if ($y['pass']==$_GET['password']){\n            $bin = mysql_query(\"SELECT * FROM bins WHERE user = \".$userId.\" ORDER BY id DESC LIMIT 0,1\");\n            while($binArr = mysql_fetch_array($bin)){\n                echo \"http://denikpacienta.cz/bin/\".$binArr['file'];\n            }\n        }else{\n            echo 'API: Chybné heslo';\n        }\n    }\n}\n\n?>",
 			"file": "inc/api.php",
-			"file_size": 1806,
-			"file_write_time": 1407620836000000,
 			"settings":
 			{
-				"buffer_size": 1807,
+				"buffer_size": 1826,
 				"line_ending": "Unix"
 			}
 		}
@@ -474,15 +471,15 @@
 					"file": "inc/api.php",
 					"settings":
 					{
-						"buffer_size": 1807,
+						"buffer_size": 1826,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								770,
-								770
+								833,
+								833
 							]
 						],
 						"settings":
@@ -495,7 +492,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 191.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

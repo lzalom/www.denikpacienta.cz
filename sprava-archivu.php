@@ -82,7 +82,14 @@ if (!isset($_SESSION['userId'])){
                             $x = mysql_query("SELECT * FROM bins WHERE user = ".$_SESSION['userId']." ORDER BY id DESC LIMIT 0,6");
                             while ($y = mysql_fetch_array($x)){
                                 $date = date('d.m.Y H:i:s', strtotime($y['date']));
-                                echo '<div class="item"><a href="bin/'.$y['file'].'"><h2>'.$date.'</h2></a></div>';
+                                if ($y['os']=='Android'){ 
+                                    $osIcon = ' android';
+                                }else if ($y['os']=='Ios'){
+                                    $osIcon = ' ios';
+                                }else{
+                                    $osIcon = ''; 
+                                }
+                                echo '<div class="item"><a href="bin/'.$y['file'].'"><h2>'.$date.'</h2><span class="icon'.$osIcon.'"></span></a></div>';
                                 $i++;
                             }
                             if ($i==0){
