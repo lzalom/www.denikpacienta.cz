@@ -110,6 +110,30 @@
 				"buffer_size": 1826,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "sprava-archivu.php",
+			"settings":
+			{
+				"buffer_size": 7380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 25288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "admin/inc/functions.inc",
+			"settings":
+			{
+				"buffer_size": 14387,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -140,8 +164,8 @@
 	},
 	"file_history":
 	[
-		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/admin/inc/functions.inc",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/functions.inc",
+		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/admin/inc/functions.inc",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/.gitignore",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/inc/api.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/www.denikpacienta.cz/admin/index.php",
@@ -285,6 +309,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"filename2",
+			"file2",
 			"type",
 			"homepage",
 			"carousel",
@@ -372,7 +398,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -387,8 +413,8 @@
 						"selection":
 						[
 							[
-								233,
-								233
+								2069,
+								2069
 							]
 						],
 						"settings":
@@ -401,7 +427,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 632.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -493,6 +519,98 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sprava-archivu.php",
+					"settings":
+					{
+						"buffer_size": 7380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3819,
+								3819
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 61.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 25288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14374,
+								14374
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4550.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "admin/inc/functions.inc",
+					"settings":
+					{
+						"buffer_size": 14387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4834,
+								4834
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1166.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

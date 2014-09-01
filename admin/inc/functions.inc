@@ -113,6 +113,42 @@
                 WHERE id = ".$_POST['id']) or die(mysql_error());
             }
         }
+        if ($_FILES['file3']["name"]!=''){             
+            $filename3 = date('Y-m-d_H-i-s') . '-phone.jpg';
+            //$filename3 = date('Y-m-d') . '-' . $_FILES["file3"]["name"];       
+            if ($_FILES['file3']['type']!='image/jpeg'){
+                echo 'Invalid file ext';
+            }else{                
+                $x = mysql_query("SELECT * FROM banners WHERE id = ".$_POST['id']);
+                while($y = mysql_fetch_array($x)){
+                    unlink($rootPath.'/admin/banners/'.$y['file3']);
+                }       
+                /* fullsize image */
+                move_uploaded_file($_FILES["file3"]["tmp_name"],
+                $rootPath."/admin/banners/" . $filename3);
+                mysql_query("UPDATE banners SET 
+                file3 = '".$filename3."'
+                WHERE id = ".$_POST['id']) or die(mysql_error());
+            }
+        }
+        if ($_FILES['file4']["name"]!=''){             
+            $filename4 = date('Y-m-d_H-i-s') . '-phone@2x.jpg';
+            //$filename4 = date('Y-m-d') . '-' . $_FILES["file4"]["name"];       
+            if ($_FILES['file4']['type']!='image/jpeg'){
+                echo 'Invalid file ext';
+            }else{                
+                $x = mysql_query("SELECT * FROM banners WHERE id = ".$_POST['id']);
+                while($y = mysql_fetch_array($x)){
+                    unlink($rootPath.'/admin/banners/'.$y['file4']);
+                }       
+                /* fullsize image */
+                move_uploaded_file($_FILES["file4"]["tmp_name"],
+                $rootPath."/admin/banners/" . $filename4);
+                mysql_query("UPDATE banners SET 
+                file4 = '".$filename4."'
+                WHERE id = ".$_POST['id']) or die(mysql_error());
+            }
+        }
     }
     /* de/aktivace item */
     if ((isset($_GET['action']))&&(($_GET['action']=='deactivateBanner')||($_GET['action']=='activateBanner'))){
@@ -189,15 +225,30 @@
                         <label for="end">Expirace</label>
                         <input type="text" name="end" id="end" data-required="true" class="datepicker" value="'.$y['end'].'">
                         <br>
-                        <label for="file1">Normální velikost</label>
-                        <input type="file" name="file1" id="file1">
-                        <img src="banners/'.$y['file1'].'" class="formImg">
-                        <div class="clr"></div>
-                        <br>
-                        <label for="file2">Velikost pro retinový displej</label>
-                        <input type="file" name="file2" id="file2">
-                        <img src="banners/'.$y['file2'].'" class="formImg">
-                        <div class="clr"></div>
+                        <div class="left">
+                            <b>Tablet</b><br>
+                            <label for="file1">Normální velikost</label>
+                            <input type="file" name="file1" id="file1">
+                            <img src="banners/'.$y['file1'].'" class="formImg">
+                            <div class="clr"></div>
+                            <br>
+                            <label for="file2">Velikost pro retinový displej</label>
+                            <input type="file" name="file2" id="file2">
+                            <img src="banners/'.$y['file2'].'" class="formImg">
+                            <div class="clr"></div>
+                        </div>
+                        <div class="right">
+                            <b>Mobil</b><br>
+                            <label for="file3">Normální velikost</label>
+                            <input type="file" name="file3" id="file3">
+                            <img src="banners/'.$y['file3'].'" class="formImg">
+                            <div class="clr"></div>
+                            <br>
+                            <label for="file4">Velikost pro retinový displej</label>
+                            <input type="file" name="file4" id="file4">
+                            <img src="banners/'.$y['file4'].'" class="formImg">
+                            <div class="clr"></div>
+                        </div>
                         <br>
         
                         <label for="interval">Interval v sekundách</label>
