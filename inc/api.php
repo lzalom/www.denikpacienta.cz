@@ -41,7 +41,15 @@ if ($_GET['action']=='binDownload'){
     while($y=mysql_fetch_array($x)){
         $userId = $y['id'];
         if ($y['pass']==$_GET['password']){
-            $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." ORDER BY id DESC LIMIT 0,1");
+            if ($_GET['os']=='Android'){
+                $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Android' ORDER BY id DESC LIMIT 0,1");
+            }
+            if ($_GET['os']=='Ios'){
+                $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Ios' ORDER BY id DESC LIMIT 0,1");
+            }
+            if ($_GET['os']==''){
+                $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Ios' ORDER BY id DESC LIMIT 0,1");
+            }
             while($binArr = mysql_fetch_array($bin)){
                 echo "http://denikpacienta.cz/bin/".$binArr['file'];
             }
