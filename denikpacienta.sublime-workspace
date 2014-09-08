@@ -107,7 +107,7 @@
 			"file": "inc/api.php",
 			"settings":
 			{
-				"buffer_size": 1826,
+				"buffer_size": 2253,
 				"line_ending": "Unix"
 			}
 		},
@@ -132,6 +132,22 @@
 			"settings":
 			{
 				"buffer_size": 14387,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "redirect.php",
+			"settings":
+			{
+				"buffer_size": 1295,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/banners.php",
+			"settings":
+			{
+				"buffer_size": 1078,
 				"line_ending": "Unix"
 			}
 		}
@@ -398,7 +414,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -427,7 +443,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 632.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -458,7 +474,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1091.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -497,15 +513,15 @@
 					"file": "inc/api.php",
 					"settings":
 					{
-						"buffer_size": 1826,
+						"buffer_size": 2253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								833,
-								833
+								2027,
+								2027
 							]
 						],
 						"settings":
@@ -517,8 +533,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
+						"translation.x": 14.0,
+						"translation.y": 343.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -611,6 +627,69 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 1166.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "redirect.php",
+					"settings":
+					{
+						"buffer_size": 1295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 55.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "inc/banners.php",
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

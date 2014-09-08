@@ -110,7 +110,53 @@ if (isset($_GET['logoff'])){
                          <a href="index.html" class="btnHome btnHomeBlack"></a>     
                     </div>                    
                     <div class="clr"></div>
-               
+                    
+                    <div class="info">
+<p><b>Dodržte prosím postup u zálohování/obnovy dat. Za poškození zálohy v důsledku nesprávného 
+dodržení postupu neneseme odpovědnost.</b></p>
+
+<p><b>Postup zálohování dat:</b></p>
+
+<p>1) Soubory záloh jsou <b>přenositelné jen mezi stejným typem operačního systému.</b></p>
+
+<p>2) Vždy se <b>před zálohováním ujistěte</b>, že máte na svém zařízení <b>aktuální verzi aplikace Deníku</b> 
+
+pacienta. Kontrolu provede na AppStore nebo Google Play. V případě, že vyšla nová verze, 
+
+updatujte aplikaci. Hned po updatu proveďte zálohu! Zálohy mezi různými verzemi aplikace 
+
+nejsou podporovány a způsobí poškození konzistence archivu a pád aplikace.</p>
+
+<p>3) Proveďte zálohu svých dat.</p>
+
+<p><b>Postup obnovy dat:</b></p>
+
+<p>1) Soubory záloh jsou <b>přenositelné jen mezi stejným typem operačního systému.</b></p>
+
+<p>2) Před <b>obnovou dat se ujistěte</b>, že máte na svém zařízení <b>stejnou verzi aplikace, ze které jste 
+
+provedli poslední zálohu</b>. V případě, že se liší, aktualizujte ji. <b>Verze aplikace</b> na zařízeních 
+
+<b>musí být stejné</b>. Obnova dat mezi různými verzemi aplikace není podporována a způsobí 
+
+poškození konzistence archivu a pád aplikace. Obnova dat z plné verze aplikace do verze Lite 
+
+také není podporována.</p>
+
+<p>3) Proveďte obnovu svých dat.</p>
+
+<p><b>Aplikace umožňuje přenos dat z jednoho zařízení do druhého pomocí funkce zálohování/
+
+obnova (pouze u stejného operačního sytému). Do vybraného zařízení se pak obnovou přenese 
+
+vždy pouze celá poslední vytvořená záloha. Prosím pamatujte, že pro udržení stejného obsahu 
+
+dat na zařízeních není vhodné provádět současně změnu obsahu na každém zařízení. On-line 
+
+synchronizace obsahu mezi zařízeními není možná.</b></p>
+                    </div>
+                  
+
                </div>                
                 
             </div>

@@ -103,5 +103,7 @@ form#formBanners img.formImg { float:left; width:150px; }
 form .left { width:50%; float:left; }
 form .right { width:50%; float:left; }
 
+div.info { color:#fff; }
+
 /**/
 ul.parsley-error-list { color: #FF0000; left: -210px; margin-top: -40px; position: relative; text-align: right; width: 200px; }

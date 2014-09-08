@@ -241,6 +241,8 @@ border-radius: 0px; text-decoration:underline;  }
     margin-left:10px;
 }
 
+div.info { color:#fff;font-size:14px; padding:10px; overflow:auto; height:160px; }
+
 .archiveManagement {
 	margin-left:75px;
 	width:920px;
@@ -478,3 +480,5 @@ footer div p a,
     .btnHome.btnHomeBlue { background:transparent url(../gfx/btnHomeBlue@2x.png) 0px 0px no-repeat; background-size:24px 24px; }
     
 }
+
+

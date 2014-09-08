@@ -23,8 +23,8 @@ if ($_GET['action']=='binUpload'){
                 $filename = $userId."-".$_GET['datetime'].".bin";
                 move_uploaded_file($_FILES["bin"]["tmp_name"],
                 $rootPath."/bin/".$filename);
-                mysql_query("INSERT INTO bins (file, date, user, os)
-                            VALUES ('".$filename."', '".$now."', ".$userId.", '".$_GET['os']."') ");
+                mysql_query("INSERT INTO bins (file, date, user, os, version)
+                            VALUES ('".$filename."', '".$now."', ".$userId.", '".$_GET['os']."', '".$_GET['version']."') ");
                 echo 'OK';
             }else{                
                 echo 'API: Nebyl nahrán soubor';
@@ -42,10 +42,10 @@ if ($_GET['action']=='binDownload'){
         $userId = $y['id'];
         if ($y['pass']==$_GET['password']){
             if ($_GET['os']=='Android'){
-                $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Android' ORDER BY id DESC LIMIT 0,1");
+                $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Android' AND version = '".$_GET['version']."' ORDER BY id DESC LIMIT 0,1");
             }
             if ($_GET['os']=='Ios'){
-                $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Ios' ORDER BY id DESC LIMIT 0,1");
+                $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Ios' AND version = '".$_GET['version']."' ORDER BY id DESC LIMIT 0,1");
             }
             if ($_GET['os']==''){
                 $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Ios' ORDER BY id DESC LIMIT 0,1");
