@@ -43,16 +43,19 @@ if ($_GET['action']=='binDownload'){
         if ($y['pass']==$_GET['password']){
             if ($_GET['os']=='Android'){
                 $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Android' AND version = '".$_GET['version']."' ORDER BY id DESC LIMIT 0,1");
+                while($binArr = mysql_fetch_array($bin)){
+                    echo "http://denikpacienta.cz/bin/".$binArr['file'];
+                }
             }
             if ($_GET['os']=='Ios'){
                 $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Ios' AND version = '".$_GET['version']."' ORDER BY id DESC LIMIT 0,1");
+                while($binArr = mysql_fetch_array($bin)){
+                    echo "http://denikpacienta.cz/bin/".$binArr['file'];
+                }
             }
-            if ($_GET['os']==''){
+            /*if ($_GET['os']==''){
                 $bin = mysql_query("SELECT * FROM bins WHERE user = ".$userId." AND os = 'Ios' ORDER BY id DESC LIMIT 0,1");
-            }
-            while($binArr = mysql_fetch_array($bin)){
-                echo "http://denikpacienta.cz/bin/".$binArr['file'];
-            }
+            }*/
         }else{
             echo 'API: Chybné heslo';
         }
